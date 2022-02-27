@@ -35,7 +35,7 @@ steps:
   inputs:    
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
-      **\APITests.*test*.dll
+      **\APITests.dll
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
