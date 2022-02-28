@@ -47,6 +47,7 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/index.html'
+    testResultsFiles: |
+      **\index.html
     searchFolder: '$(System.DefaultWorkingDirectory)'
     failTaskOnFailedTests: true
