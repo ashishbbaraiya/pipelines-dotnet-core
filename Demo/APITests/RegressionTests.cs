@@ -86,7 +86,7 @@ namespace APITests
 
             try
             {
-                Assert.AreEqual("Michael", user.Data[0].first_name);
+                Assert.AreEqual("Michaeel", user.Data[0].first_name);
             }
             catch (Exception ex)
             {
