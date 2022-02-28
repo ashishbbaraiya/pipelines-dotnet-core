@@ -47,5 +47,5 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'VSTest'
-    testResultsFiles: '**\index.html'
+    testResultsFiles: '**\TestResults\index.html'
     failTaskOnFailedTests: true
